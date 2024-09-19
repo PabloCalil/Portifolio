@@ -61,18 +61,6 @@
     line-height: 19.36px;
 }
 
-.technologies{
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    margin-top: 40px;
-}
-
-.technologiesIcon{
-    height: 53px;
-    width: 60px;
-}
-
 .aboutMeImg{
    height: 750px;
    width: 500px;

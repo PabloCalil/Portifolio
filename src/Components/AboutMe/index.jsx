@@ -19,8 +19,8 @@ export const AboutMe = () => {
                     <button class={styles.perfilButton}>See projects</button>
                     <img class={styles.gitIcon} src="../src/assets/Bt-Circle.png" alt="github icon" />
                 </div>
-                <div class={styles.technologies}>
-                    <h1>ola</h1>
+                <div>
+                    <TechList />
                 </div>
             </div>
             </div>

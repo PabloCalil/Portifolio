@@ -1,12 +1,14 @@
-import { AboutMe } from "../AboutMe";
+import styles from './styles.module.css'
 import {technologies} from '../../data/technologies'
 
 export const TechList = () => {
     return (
-        <ul>
+        <div className={styles.technologies}>
             {technologies.map(technologies => (
-                <AboutMe key={technologies.name} technologies={technologies} />
+                <div key={technologies.name}>
+                    <img className={styles.technologiesIcon} src={technologies.img} alt={technologies.name} />
+                </div>
             ))}
-        </ul>
+        </div>
     )
 }

@@ -1,0 +1,12 @@
+.technologies{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+}
+
+.technologiesIcon{
+    height: 53px;
+    width: 60px;
+    text-decoration: none;
+}
