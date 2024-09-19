@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 10px;
+}
+
+p{
+    font-size: var(--size-headline);
+    font-weight: var(--weigth-headline);
+    line-height: var(--heigth-headline);
+    color: var(--grey-2);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.iconsContainer{
+    display: flex;
+    gap: 50px;
+}
+
+.Lenguage{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+img{
+    height: 18px;
+    width: 16px;
+}

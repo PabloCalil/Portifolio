@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey-1);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.contactsContent{
+    display: flex;
+    justify-content: space-between;
+    width: 1030px;
+}
+
+.contactDescript{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    gap: 50px;
+}

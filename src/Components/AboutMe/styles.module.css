@@ -1,0 +1,80 @@
+.aboutMe{
+    display: flex;
+    width: 100%;
+    background-color: var(--grey-1);
+}
+
+.aboutMeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.perfilContent{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 607px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.perfilImg{
+    height: 40px;
+    width: 40px;
+}
+
+.gitIcon{
+    height: 48px;
+    width: 48px;
+}
+
+.perfilDescript{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.seeProjects{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.perfilButton{
+    border: 2px solid var(--Color-primary);
+    border-radius: 8px;
+    padding: 0px 32px;
+    width: 160px;
+    height: 48px;
+    background-color: var(--Color-primary);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+}
+
+.technologies{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+}
+
+.technologiesIcon{
+    height: 53px;
+    width: 60px;
+}
+
+.aboutMeImg{
+   height: 750px;
+   width: 500px;
+   opacity: 80%;
+}

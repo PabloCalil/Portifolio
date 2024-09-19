@@ -1,0 +1,36 @@
+.socialMidias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    background-color: var(--grey-0);
+}
+
+.socialMidiasContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1030px;
+}
+
+.socialMidiasLeft{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.socialMidiasRigth{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.socialMidiasPerfil{
+    height: 69px;
+    width: 69px;
+}
+
+.socialMidiasImg{
+    height: 48px;
+    width: 48px;
+}

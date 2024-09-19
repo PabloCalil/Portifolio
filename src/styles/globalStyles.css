@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+:root {
+	--Color-primary: #623cea;
+    --Color-primary-hover: #7C91FF;
+	--ColorWhite: #ffffff;
+	--ColorBackground: linear-gradient(to bottom, #0c0c0c 0%,#0c0c0c 100%);
+    --grey-0: #0a0a0b;
+    --grey-1: #121214;
+    --grey-2: #868e96;
+    --grey-4: #f8f9fa;
+     
+
+    /* Fonts size*/
+
+    --size-1: 38px;
+    --size-2: 28px;
+    --size-3: 22px;
+    --size-4: 18px;
+    --size-headline: 16px;
+    --size-body: 14px;
+
+    /* font weigth */
+
+    --weigth-1: 700;
+    --weigth-2: 700;
+    --weigth-3: 700;
+    --weigth-4: 700;
+    --weigth-body: 400;
+    --weigth-headline: 400;
+
+    /* line heigth */
+
+    --heigth-1: 47.5px;
+    --heigth-2: 40px;
+    --heigth-3: 28.6px;
+    --heigth-4: 23.4px;
+    --heigth-body: 21px;
+    --heigth-headline: 28px;
+    
+
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "inter", sans-serif;
+
+}
+
+body{
+    background: var(--ColorBackground);
+    color: var(--ColorWhite);
+    -webkit-font-smoothing: antialiased;
+
+    overflow-x: hidden;
+
+    padding: 0rem.25rem 0rem 1.25rem;    
+}
+
+.title1{
+    font-size: var(--size-1);
+    font-weight: var(--weigth-1);
+    line-height: var(--heigth-1);
+    color: var(--grey-4);
+}
+
+.title2{
+    font-size: var(--size-2);
+    font-weight: var(--weigth-2);
+    line-height: var(--heigth-2);
+    color: var(--grey-4);
+}
+
+.title3{
+    font-size: var(--size-3);
+    font-weight: var(--weigth-3);
+    line-height: var(--heigth-3);
+    color: var(--grey-4);
+}
+
+.title4{
+    font-size: var(--size-4);
+    font-weight: var(--weigth-4);
+    line-height: var(--heigth-4);
+    color: var(--grey-4);
+}
+
+.body{
+    font-size: var(--size-body);
+    font-weight: var(--weigth-body);
+    line-height: var(--heigth-body);
+    color: var(--grey-2);
+}
+
+.headline{
+    font-size: var(--size-headline);
+    font-weight: var(--weigth-headline);
+    line-height: var(--heigth-headline);
+    color: var(--grey-2)
+}
+
+.spanAzul{
+    color: var(--Color-primary);
+}
+
+.spanRed{
+    color: red;
+}

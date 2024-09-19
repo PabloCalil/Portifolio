@@ -1,0 +1,28 @@
+.mainHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 100%;
+    border-bottom: 2px solid var(--Color-primary);
+}
+
+.HeaderContent{
+    display: flex;
+    justify-content: space-between;
+    width: 1030px;
+}
+
+.headerNav{
+    display: flex;
+    gap: 2.5rem;
+}
+
+a{
+    color: var(--grey-2);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+}

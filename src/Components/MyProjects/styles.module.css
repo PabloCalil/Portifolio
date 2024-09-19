@@ -1,0 +1,14 @@
+.myProjects{
+    display: flex;
+    background-color: var(--grey-0);
+    width: 100%;
+    justify-content: center;
+}
+
+.myProjectsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 1030px;
+    padding: 100px 0px;
+}
