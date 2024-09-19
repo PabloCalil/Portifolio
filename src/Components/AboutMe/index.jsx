@@ -1,6 +1,8 @@
 import styles from './styles.module.css'
 import { TechList } from '../TechList'
 import perfil from '../../assets/Frame 1.png'
+import banner from '../../assets/header-bg.png'
+import githubIcon from '../../assets/Bt-Circle.png'
 
 export const AboutMe = () => {
     return (
@@ -17,7 +19,7 @@ export const AboutMe = () => {
                 </div>
                 <div class={styles.seeProjects}>
                     <button class={styles.perfilButton}>See projects</button>
-                    <img class={styles.gitIcon} src="../src/assets/Bt-Circle.png" alt="github icon" />
+                    <img class={styles.gitIcon} src={githubIcon} alt="github icon" />
                 </div>
                 <div>
                     <TechList />
@@ -25,7 +27,7 @@ export const AboutMe = () => {
             </div>
             </div>
             <div>
-                <img class={styles.aboutMeImg} src="../src/assets/header-bg.png" alt="Header album" />
+                <img class={styles.aboutMeImg} src={banner} alt="Header album" />
             </div>
         </section>
     )
